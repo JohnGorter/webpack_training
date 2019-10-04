@@ -1,0 +1,22 @@
+{
+  "scaffolding": {
+    "configuration": {
+      "dev": {
+        "webpackOptions": {
+          "entry": "'tete'",
+          "output": {
+            "filename": "'[name].js'"
+          },
+          "plugins": [
+            " new HtmlWebpackPlugin({filename: \"te.html\" }) "
+          ]
+        },
+        "topScope": [
+          "const path = require(\"path\")",
+          "const webpack = require(\"webpack\")"
+        ],
+        "configName": "pengwings"
+      }
+    }
+  }
+}
